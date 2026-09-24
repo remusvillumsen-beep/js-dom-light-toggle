@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Mooli', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden; /* This will remove scrollbars */
+  margin: 0;
+  text-align: justify;
+
+}
+
+div {
+  margin: 4%
+}
+
+#demo {
+  font-size: 2em;
+  padding: 10%;
+}
+
+img {
+  width: 10vw;
+}
+
+.btn {
+  width: 11vw;
+  height: 4vh;
+}
